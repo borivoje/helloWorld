@@ -1,8 +1,12 @@
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+	public static void main(String[] args) {
 
-        // comment
-    }
+		Animal bird = new Bird();
+		Animal dog = new Dog();
+
+		System.out.println("Dog: " + dog.tryToFly());
+		System.out.println("Bird: " + bird.tryToFly());
+
+	}
 }
