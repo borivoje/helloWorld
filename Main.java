@@ -7,6 +7,7 @@ public class Main {
 
 		System.out.println("Dog: " + dog.tryToFly());
 		System.out.println("Bird: " + bird.tryToFly());
+		System.out.println("Bird: " + bird.tryToFly());
 
 	}
 }
