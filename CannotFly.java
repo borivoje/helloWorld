@@ -1,4 +1,4 @@
-public class CannotFly implements FlyingType {
+public class CannotFly implements Flys {
 
 	@Override
 	public String tryToFly() {

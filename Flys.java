@@ -1,4 +1,4 @@
-public interface FlyingType {
+public interface Flys {
 
 	public String tryToFly();
 

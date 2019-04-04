@@ -1,6 +1,6 @@
-public class Animal implements FlyingType {
+public class Animal implements Flys {
 
-	public FlyingType flyingType;
+	public Flys flyingType;
 
 	public Animal() {
 
@@ -10,9 +10,8 @@ public class Animal implements FlyingType {
 		return flyingType.tryToFly();
 	}
 
-	public void setFlyingType(FlyingType ft) {
-
-		flyingType = ft;
+	public void setFlyingAbility(Flys newFlyingObject) {
+		flyingType = newFlyingObject;
 	}
 
 }
